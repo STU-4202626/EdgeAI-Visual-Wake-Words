@@ -1,0 +1,4 @@
+-r base.txt
+codecarbon
+# Separately install a platform-compatible TensorFlow/Keras 2 build.
+# TensorFlow is intentionally not version-guessed by this extraction.

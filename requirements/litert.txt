@@ -1,0 +1,3 @@
+-r base.txt
+codecarbon
+# Separately install a compatible tflite-runtime wheel for the target ABI.

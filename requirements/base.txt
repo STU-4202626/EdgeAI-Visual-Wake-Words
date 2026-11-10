@@ -1,0 +1,6 @@
+# Import-derived package inventory; not a historical version lock.
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow

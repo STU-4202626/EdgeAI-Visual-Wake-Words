@@ -1,0 +1,47 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Datasets, exported features and archives
+data/
+datasets/
+benchmark_data/
+cifar-10-batches-py/
+cifar-10-python/
+vw_coco2014_96/
+_background_noise_/
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+# ESP-IDF generated state
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+# New experiment outputs; historical-results/ is intentionally retained
+/MLPerf_Tiny/**/results/
+/MLPerf_Tiny/**/results_full/
+/MLPerf_Tiny/**/results_quant/
+/MLPerf_Tiny/MLPerf_Tiny_*/mlperf_tiny_*_summary.csv
+/MLPerf_Tiny/mlperf_tiny_all_devices_summary.csv
+*.log
+# Any additional local dataset arrays; retain evaluation indices
+*.npy
+!perf_samples_idxs.npy

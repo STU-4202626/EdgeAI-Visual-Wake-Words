@@ -1,0 +1,3 @@
+Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Raspberry Pi 5,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1.0,30.0,79.729,0.859,0.9284,0.778,0.8466,0.9399,79.729,12.54,3.943e-05,0.8,PASSED
+Raspberry Pi 5,Visual Wake Words,Visual Wake Words,vww_96_int8.tflite,1000,27.0,30.0,30.46,0.855,0.9216,0.776,0.8426,0.9384,1.128,886.52,6.087e-07,0.8,PASSED
